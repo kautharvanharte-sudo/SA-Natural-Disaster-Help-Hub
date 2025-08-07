@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>South African Disaster Help Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1 id="pageTitle">South African Disaster Help Hub</h1>
+    <div class="language-selector">
+      <button onclick="updateTitle('en')">EN</button>
+      <button onclick="updateTitle('af')">AF</button>
+      <button onclick="updateTitle('xh')">XH</button>
+    </div>
+  </header>
+  <main>
+    <div class="cards-container">
+      <div class="link-card flood">
+        <a href="flood.html" aria-label="Flood Safety">
+          <!-- Flood SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="white" width="64" height="64" aria-hidden="true" focusable="false">
+            <path d="M32 2C20 16 10 26 10 36a22 22 0 0044 0c0-10-10-20-22-34z"/>
+            <circle cx="32" cy="36" r="6" fill="#00b4d8"/>
+          </svg>
+          <span data-lang-en="Flood" data-lang-af="Vloed" data-lang-xh="Uququ">Flood</span>
+        </a>
+      </div>
+      <div class="link-card wildfire">
+        <a href="wildfire.html" aria-label="Wildfire Safety">
+          <!-- Wildfire SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="white" width="64" height="64" aria-hidden="true" focusable="false">
+            <path d="M32 4c-10 14-8 22-8 30a12 12 0 0024 0c0-8-2-16-8-30z" fill="#f94144"/>
+            <path d="M32 40c-3 0-5-3-5-6a5 5 0 0110 0c0 3-2 6-5 6z" fill="#f3722c"/>
+          </svg>
+          <span data-lang-en="Wildfire" data-lang-af="Veldbrand" data-lang-xh="Umlilo wehlathi">Wildfire</span>
+        </a>
+      </div>
+      <div class="link-card drought">
+        <a href="drought.html" aria-label="Drought Safety">
+          <!-- Drought SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="white" width="64" height="64" aria-hidden="true" focusable="false">
+            <circle cx="32" cy="32" r="16" stroke="#f4a261" stroke-width="4" fill="none"/>
+            <path d="M32 10v44" stroke="#e76f51" stroke-width="4"/>
+            <path d="M18 32h28" stroke="#e76f51" stroke-width="4"/>
+          </svg>
+          <span data-lang-en="Drought" data-lang-af="Droogte" data-lang-xh="Ukoma">Drought</span>
+        </a>
+      </div>
+      <div class="link-card storm">
+        <a href="storm.html" aria-label="Storm Safety">
+          <!-- Storm SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="white" width="64" height="64" aria-hidden="true" focusable="false">
+            <path d="M32 12l-6 12h8l-6 12" stroke="#577590" stroke-width="3" fill="none"/>
+            <circle cx="32" cy="48" r="8" fill="#577590"/>
+          </svg>
+          <span data-lang-en="Storm" data-lang-af="Storm" data-lang-xh="Isaqhwithi">Storm</span>
+        </a>
+      </div>
+      <div class="link-card earthquake">
+        <a href="earthquake.html" aria-label="Earthquake Safety">
+          <!-- Earthquake SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="white" width="64" height="64" aria-hidden="true" focusable="false">
+            <rect x="20" y="10" width="8" height="44" fill="#264653"/>
+            <rect x="36" y="10" width="8" height="44" fill="#264653"/>
+            <path d="M20 54l24-8-24-8" fill="#2a9d8f"/>
+          </svg>
+          <span data-lang-en="Earthquake" data-lang-af="Aardbewing" data-lang-xh="Inyikima">Earthquake</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

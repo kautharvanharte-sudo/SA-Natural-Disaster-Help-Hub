@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Emergency Contacts</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <h1 id="pageTitle">Emergency Contacts</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="flood.html">Flood</a>
+    <a href="wildfire.html">Wildfire</a>
+    <a href="drought.html">Drought</a>
+    <a href="storm.html">Storm</a>
+    <a href="earthquake.html">Earthquake</a>
+    <a href="first-aid.html">First Aid</a>
+    <a href="contacts.html">Contacts</a>
+  </nav>
+  <div class="language-selector">
+    <button onclick="updateTitle('en')">EN</button>
+    <button onclick="updateTitle('af')">AF</button>
+    <button onclick="updateTitle('xh')">XH</button>
+  </div>
+</header>
+<main>
+  <div class="card">
+    <h3>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#264653" viewBox="0 0 24 24" style="vertical-align: middle; margin-right: 8px;">
+        <path d="M21 10h-7V3h-2v7H3v2h7v7h2v-7h7z"/>
+      </svg>
+      <span data-lang-en="Emergency Numbers" data-lang-af="Noodnommers" data-lang-xh="Inombolo zoNxibelelwano lweNgozi">Emergency Numbers</span>
+    </h3>
+    <ul>
+      <li data-lang-en="Police: 10111" data-lang-af="Polisie: 10111" data-lang-xh="Amapolisa: 10111">Police: 10111</li>
+      <li data-lang-en="Ambulance: 10177" data-lang-af="Ambulansie: 10177" data-lang-xh="I-Ambulensi: 10177">Ambulance: 10177</li>
+      <li data-lang-en="Fire Brigade: 112" data-lang-af="Brandweer: 112" data-lang-xh="Ibhuligadi yoMlilo: 112">Fire Brigade: 112</li>
+      <li data-lang-en="Disaster Management: 0800 123 456" data-lang-af="Rampbestuur: 0800 123 456" data-lang-xh="Ulawulo lweZingozi: 0800 123 456">Disaster Management: 0800 123 456</li>
+    </ul>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

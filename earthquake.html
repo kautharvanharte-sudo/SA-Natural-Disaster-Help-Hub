@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Earthquake Safety</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <h1 id="pageTitle">Earthquake Safety</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="flood.html">Flood</a>
+    <a href="wildfire.html">Wildfire</a>
+    <a href="drought.html">Drought</a>
+    <a href="storm.html">Storm</a>
+    <a href="earthquake.html">Earthquake</a>
+    <a href="first-aid.html">First Aid</a>
+    <a href="contacts.html">Contacts</a>
+  </nav>
+  <div class="language-selector">
+    <button onclick="updateTitle('en')">EN</button>
+    <button onclick="updateTitle('af')">AF</button>
+    <button onclick="updateTitle('xh')">XH</button>
+  </div>
+</header>
+<main>
+  <div class="card">
+    <h3>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0077b6" viewBox="0 0 24 24" style="vertical-align: middle; margin-right: 8px;">
+        <path d="M12 0a12 12 0 1012 12A12 12 0 0012 0zm-1.2 17.4l-4.8-4.8 1.68-1.68 3.12 3.12 6.72-6.72 1.68 1.68z"/>
+      </svg>
+      <span data-lang-en="What to do during an earthquake" data-lang-af="Wat om te doen tydens ’n aardbewing" data-lang-xh="Okwenziwayo ngexesha lenyikima">What to do during an earthquake</span>
+    </h3>
+    <ul>
+      <li data-lang-en="Drop, cover, and hold on" data-lang-af="Val, bedek en hou vas" data-lang-xh="Wela phantsi, khusela, kwaye ubambe">Drop, cover, and hold on</li>
+      <li data-lang-en="Stay indoors until shaking stops" data-lang-af="Bly binne totdat die skudding ophou" data-lang-xh="Hlala ngaphakathi ude ukuphalala kuyeke">Stay indoors until shaking stops</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#d00000" viewBox="0 0 24 24" style="vertical-align: middle; margin-right: 8px;">
+        <path d="M12 0a12 12 0 1012 12A12 12 0 0012 0zm5.656 15.656l-1.414 1.414L12 13.414l-4.242 4.242-1.414-1.414L10.586 12 6.344 7.758l1.414-1.414L12 10.586l4.242-4.242 1.414 1.414L13.414 12z"/>
+      </svg>
+      <span data-lang-en="What not to do" data-lang-af="Wat om nie te doen nie" data-lang-xh="Ongamele ukwenze">What not to do</span>
+    </h3>
+    <ul>
+      <li data-lang-en="Don’t run outside during shaking" data-lang-af="Moet nie buite hardloop tydens skudding nie" data-lang-xh="Musa ukubaleka ngaphandle ngexesha lokuphalala">Don’t run outside during shaking</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2a9d8f" viewBox="0 0 24 24" style="vertical-align: middle; margin-right: 8px;">
+        <path d="M21 10h-7V3h-2v7H3v2h7v7h2v-7h7z"/>
+      </svg>
+      <span data-lang-en="First aid" data-lang-af="Eerstehulp" data-lang-xh="Uncedo lokuqala">First aid</span>
+    </h3>
+    <ul>
+      <li data-lang-en="Check for injuries and treat bleeding" data-lang-af="Kyk vir beserings en behandel bloeding" data-lang-xh="Jonga ukwenzakala kwaye unyange ukopha">Check for injuries and treat bleeding</li>
+    </ul>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

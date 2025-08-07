@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>First Aid Tips</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <h1 id="pageTitle">First Aid Tips</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="flood.html">Flood</a>
+    <a href="wildfire.html">Wildfire</a>
+    <a href="drought.html">Drought</a>
+    <a href="storm.html">Storm</a>
+    <a href="earthquake.html">Earthquake</a>
+    <a href="first-aid.html">First Aid</a>
+    <a href="contacts.html">Contacts</a>
+  </nav>
+  <div class="language-selector">
+    <button onclick="updateTitle('en')">EN</button>
+    <button onclick="updateTitle('af')">AF</button>
+    <button onclick="updateTitle('xh')">XH</button>
+  </div>
+</header>
+<main>
+  <div class="card">
+    <h3>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2a9d8f" viewBox="0 0 24 24" style="vertical-align: middle; margin-right: 8px;">
+        <path d="M21 10h-7V3h-2v7H3v2h7v7h2v-7h7z"/>
+      </svg>
+      <span data-lang-en="Basic First Aid" data-lang-af="Basiese Eerste Hulp" data-lang-xh="IsiQalo sokuNceda">Basic First Aid</span>
+    </h3>
+    <ul>
+      <li data-lang-en="Call emergency services if serious injury occurs" data-lang-af="Skakel nooddienste by ernstige beserings" data-lang-xh="Shayela iinkonzo ezingxamisekileyo ukuba kukho ukwenzakala okukhulu">Call emergency services if serious injury occurs</li>
+      <li data-lang-en="Keep airway clear and maintain breathing" data-lang-af="Hou lugweg duidelik en handhaaf asemhaling" data-lang-xh="Gcina umoya ucacile kwaye uqinisekise ukuphefumla">Keep airway clear and maintain breathing</li>
+    </ul>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
